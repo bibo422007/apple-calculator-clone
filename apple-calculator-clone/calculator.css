@@ -1,0 +1,39 @@
+.num
+      {
+        background-color:rgb(51, 51, 51);
+        color:white;
+        width:60px;
+        height:60px;
+        border-radius:30px;
+        border-width: 0px;
+        margin-right:10px;
+        font-size: 24px;
+      }
+      .op
+      {
+        background-color: rgb(254, 160, 10);
+        color:white;
+        width:60px;
+        height:60px;
+        border-radius:30px;
+        border-width: 0px;
+        margin-right:10px;
+        font-size: 24px;
+      }
+      .externals
+      {
+        background-color:rgb(136, 134, 134);
+        color:white;
+        width:60px;
+        height:60px;
+        border-radius:30px;
+        border-width: 0px;
+        margin-right:10px;
+        font-size: 24px;
+      }
+      p
+      {
+        font-family:Arial;
+        font-size: 40px;
+        color:white;    
+      }

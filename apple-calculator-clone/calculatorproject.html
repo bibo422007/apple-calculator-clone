@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body style="background-color:black;"> 
+    <div class="calculator" style="margin-top:100px;">
+      <p class="js-calc"></p>
+      <div style="display:flex;
+      width:300px;
+      height:80px;
+      ">
+        <button class="num"  onclick="updatecalculation('num','1')">1</button>
+      <button class="num"  onclick="updatecalculation('num','2')">2</button>
+      <button class="num"  onclick="updatecalculation('num','3')">3</button>
+      <button class="op"  onclick="updatecalculation('op','+')">+
+      </button>
+      </div>
+      <div style="display:flex;
+      width:300px;
+      height:80px;
+      ">
+        <button class="num"  onclick="updatecalculation('num','4')">4</button>
+      <button class="num"  onclick="updatecalculation('num','5')">5</button>
+      <button class="num"  onclick="updatecalculation('num','6')">6</button>
+      <button class="op"  onclick="updatecalculation('op','-')">-
+      </button>
+      </div>
+      <div style="display:flex;
+      width:300px;
+      height:80px;
+
+      ">
+        <button class="num"  onclick="updatecalculation('num','7')">7</button>
+      <button class="num"  onclick="updatecalculation('num','8')">8</button>
+      <button class="num"  onclick="updatecalculation('num','9')">9</button>
+      <button class="op"  onclick="updatecalculation('op','*')">*
+      </button>
+      </div>
+      <div style="display:flex;
+      width:300px;
+      height:80px;
+
+      ">
+        <button class="num"  onclick="updatecalculation('num','0')">0</button>
+      <button class="num"  onclick="updatecalculation('op','.')">.</button>
+      <button class="num" onclick="calc();">=</button>
+       <button class="op"  onclick="updatecalculation('op','/')">/
+      </button>
+      </div>  
+      <div>
+        <button class="externals"
+        onclick="remlast();">X</button>
+         <button class="externals"  onclick="
+         calculation='';
+         displaycalc();
+         localStorage.removeItem('calculation');">AC</button> 
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
